@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.calc{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20rem;
+    height: 21rem;
+    background-color: silver;
+}
+
+.heading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 7px;
+    height: 3.2rem;
+}
+
+.input{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input input{
+    width: 10rem;
+    text-align: center;
+    margin-top: .5rem;
+    border: none;
+    border-bottom: 1.5px solid black;
+    background: transparent;
+}
+
+.input input::placeholder{
+    color: black;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.buttons{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons button{
+    width: 10rem;
+    height: 2rem; 
+    font-weight: bold;
+    border: 1.5px solid black;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+#resultDisplay{
+    border-bottom: 1.5px solid black;
+    width: max-content;
+    height: 3rem;
+    text-align: center;
+    padding-top: 1.8rem;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+}
